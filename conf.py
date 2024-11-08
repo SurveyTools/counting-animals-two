@@ -21,16 +21,21 @@ project = 'counting-animals-two'
 copyright = '2024, Wildlife Survey Tools Working Group'
 author = 'Wildlife Survey Tools Working Group'
 
-
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.mathjax', 'myst_parser']
+extensions = [
+    'sphinx.ext.mathjax',
+    'myst_parser',
+    'sphinxcontrib.bibtex'
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
+
+bibtex_bibfiles = ['bib/ca2-references.bib']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.

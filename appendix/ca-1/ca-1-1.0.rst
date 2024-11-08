@@ -1,0 +1,76 @@
+Chapter 1: Introduction to Counting Animals
+===========================================
+
+Any research program for the management and conservation of large African mammals will require, at some point, information on the number of animals. This information falls into three main categories:
+
+1. **Total Numbers**:
+   Estimates of the total numbers of different species within a park, reserve, or study area form part of the general ecological description of an area. These estimates are essential for understanding predator-prey relationships and for more detailed studies on habitat utilization.
+
+2. **Population Structure and Size**:
+   The study of population dynamics is crucial to understanding the ecological status of a specific population within a park or reserve. This information also aids in management and conservation policy decisions. Periodic estimates of the absolute population size, along with age and sex structure (e.g., male:female ratios, proportions of calves, yearlings, and sub-adults), are required.
+
+3. **Distribution and Movements**:
+   Data on seasonal movement patterns and vegetation type utilization are necessary for identifying key grazing and watering areas, migratory routes, and regions with high species density and diversity. This information is critical for defining park boundaries, developing tourist areas, and studying habitat overlap and competition.
+
+Wildlife Management Objectives
+------------------------------
+
+Effective wildlife management, including setting cropping or hunting quotas, tourism development, and defining boundaries, depends on reliable information about animal numbers, population dynamics, and movements.
+
+Focus of This Handbook
+----------------------
+
+This handbook addresses the practical problems encountered when designing and executing a wildlife census. The emphasis is on estimating the total number of animals within a defined area. Although specific emphasis is placed on aerial census methods, these principles also apply to ground-based and foot methods. Some sections are devoted to ground counting, especially in situations where ground methods yield better results than aerial methods.
+
+Designing a Census
+------------------
+
+A key consideration when designing a census is defining its primary objectives in advance. It is crucial to recognize that different census goals require distinct methodologies. For instance, a census focused on distribution will differ from one aimed at estimating total numbers. Therefore, it is generally best to design a census with one main objective.
+
+Considerations for Census Design
+--------------------------------
+
+After defining the main objective, other factors to consider include:
+
+- **Resources**: Availability of personnel, cross-country vehicles, light aircraft, and trained crews.
+- **Size of Area**: Whether the study area is small (200 km²), medium (1,000 km²), or very large (25,000 km²).
+- **Vegetation Type**: The terrain may range from open plains to thick forest, influencing visibility and count accuracy.
+- **Topography**: Accessibility of the area, including road systems or lack thereof.
+- **Animal Type**: Presence of large migratory species, large resident species, or smaller, elusive species.
+
+Use of Light Aircraft
+---------------------
+
+The light aircraft has become a valuable tool for wildlife censuses. It offers reliable and consistent results if straightforward precautions are taken and qualified crews are used. Aircraft can cover large areas quickly and economically, providing the only feasible method for censusing in inaccessible regions. However, dense vegetation may limit visibility from the air, especially for smaller animals.
+
+Example Studies
+---------------
+
+In Tanzania's Serengeti National Park, censuses of population structures, such as proportions of calves, yearlings, sub-adults, and adults, are conducted year-round for species like buffalo and wildebeest. Though ground access is available in much of the park, ground counts can be challenging due to animal reactions and vast distribution. Aerial methods have proven more effective in obtaining accurate estimates in these cases.
+
+Similarly, in Ruaha National Park, Tanzania, an aerial survey over 10,000 km² provided data on mammal populations and density distribution maps. This survey, which would have been nearly impossible using ground counts, cost around FA Sh 6,000.
+
+Ground Counting
+---------------
+
+Ground counts from vehicles provide accurate and consistent results in accessible areas with open vegetation. Certain species, particularly smaller resident species, may only be feasible to count from vehicles. Ground methods are particularly useful for studying seasonal distribution patterns and behavior.
+
+Road Counts
+-----------
+
+Road counts, an adaptation of vehicle ground counts, are often used when off-road access is difficult. However, biases can arise since roads are rarely distributed randomly, often following contours and passing through high game density areas.
+
+Foot Counts
+-----------
+
+Foot counts are rarely used except in areas with challenging terrain. They may be necessary for counting elusive species like the West African forest elephant. Information from foot patrols can help in designing aerial or ground censuses for larger surveys.
+
+Total vs. Sample Counts
+-----------------------
+
+Two primary counting methods exist: the **Total Count**, where all animals in a designated area are counted, and the **Sample Count**, where only part of the area is surveyed, and the total population is estimated based on this sample. While total counts may seem straightforward, sample counts are generally preferred due to their efficiency and cost-effectiveness. However, sample counts introduce sampling error, which can be quantified to assess the estimate's reliability.
+
+Summary
+-------
+
+Selecting between total and sample counts involves balancing accuracy, cost, and practicality. In many cases, sample counts provide a manageable solution, allowing for accurate estimates while maintaining reasonable resource use.

@@ -7,21 +7,18 @@ Counting Animals 2.0
 ================================================
 
 .. toctree::
-   :hidden:
-
-   intro.rst
-   principles-of-sample-counts.rst
-   glossary.rst
-
-.. toctree::
-   :hidden:
+   :maxdepth: 2
    :caption: Contents
 
-
+   foreward
+   chapter-1/index
+   chapter-2/index
+   glossary
+   references
+   appendix/index
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`

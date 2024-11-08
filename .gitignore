@@ -1,6 +1,7 @@
+.DS_Store
+
 /.venv/
 /.idea/
+/_build/
 
 **/__pycache__/
-
-/_build/
