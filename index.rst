@@ -15,7 +15,6 @@ Counting Animals 2.0
    chapter-2/index
    glossary
    references
-   appendix/index
 
 Indices and tables
 ==================
