@@ -37,15 +37,15 @@ In Bayesian inference, we start with a **prior distribution** representing our i
 
    The posterior distribution represents the updated belief after considering the new data.
 
-+--------------------+---------------------------------+-----------------------------------+
-| **Component**      | **Definition**                  | **Example in Disease Testing**    |
-+====================+=================================+===================================+
-| Prior              | Initial belief about a parameter | Disease prevalence rate           |
-+--------------------+---------------------------------+-----------------------------------+
-| Likelihood         | Probability of data given the parameter | Probability of testing positive if the person has the disease |
-+--------------------+---------------------------------+-----------------------------------+
-| Posterior          | Updated belief after observing data | Probability of having the disease given a positive test result |
-+--------------------+---------------------------------+-----------------------------------+
++--------------------+-----------------------------------------+----------------------------------------------------------------+
+| **Component**      | **Definition**                          | **Example in Disease Testing**                                 |
++====================+=========================================+================================================================+
+| Prior              | Initial belief about a parameter        | Disease prevalence rate                                        |
++--------------------+-----------------------------------------+----------------------------------------------------------------+
+| Likelihood         | Probability of data given the parameter | Probability of testing positive if the person has the disease  |
++--------------------+-----------------------------------------+----------------------------------------------------------------+
+| Posterior          | Updated belief after observing data     | Probability of having the disease given a positive test result |
++--------------------+-----------------------------------------+----------------------------------------------------------------+
 
 Graphical Representation of Bayesian Updating
 ---------------------------------------------
@@ -82,18 +82,18 @@ where:
 Summary of Bayesian Inference Process
 -------------------------------------
 
-+-------------------+-------------------------------------------------------+
-| **Step**          | **Description**                                       |
-+===================+=======================================================+
-| Define the prior  | Specify initial beliefs about the parameters          |
-+-------------------+-------------------------------------------------------+
-| Collect data      | Gather new evidence                                   |
-+-------------------+-------------------------------------------------------+
-| Calculate likelihood | Compute the probability of observing the data given |
-|                    | the parameters                                        |
-+-------------------+-------------------------------------------------------+
-| Update posterior  | Combine prior and likelihood to get the posterior     |
-+-------------------+-------------------------------------------------------+
++----------------------+--------------------------------------------------------+
+| **Step**             | **Description**                                        |
++======================+========================================================+
+| Define the prior     | Specify initial beliefs about the parameters           |
++----------------------+--------------------------------------------------------+
+| Collect data         | Gather new evidence                                    |
++----------------------+--------------------------------------------------------+
+| Calculate likelihood | Compute the probability of observing the data given    |
+|                      | the parameters                                         |
++----------------------+--------------------------------------------------------+
+| Update posterior     | Combine prior and likelihood to get the posterior      |
++----------------------+--------------------------------------------------------+
 
 Conclusion
 ----------
