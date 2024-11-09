@@ -34,7 +34,7 @@ jobs:
         run: |
           if [[ $GITHUB_REF == refs/heads/main ]]; then
             echo "TARGET_BRANCH=gh-pages" >> $GITHUB_ENV
-          elif [[ $GITHUB_REF == refs/heads/develop ]]; then
+          elif [[ $GITHUB_REF == refs/heads/development ]]; then
             echo "TARGET_BRANCH=gh-pages-dev" >> $GITHUB_ENV
           elif [[ $GITHUB_REF == refs/tags/* ]]; then
             echo "TARGET_BRANCH=gh-pages-versioned" >> $GITHUB_ENV
