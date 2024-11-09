@@ -1,0 +1,79 @@
+Chapter 3: Random Numbers, Samples, and Maps
+============================================
+
+3.1 Random Number Tables
+------------------------
+
+A random number table is a list of single digits (0-9) that occur in a totally uncoordinated and random order. These tables have two basic properties:
+
+1. Each digit occurs with the same overall frequency.
+2. There is no correlation between the occurrence of one digit and its neighbors.
+
+From these properties, we can combine digits to form random numbers of any length or size.
+
+**Using Random Number Tables**
+
+To use random number tables, first select a starting point (e.g., page 3, row 4, column 2). Then decide if you will read numbers down a column or across a row. Write down the numbers as they appear, following these rules mechanically.
+
+Examples:
+
+- **Selecting 10 random numbers between 00 and 99**: Choose a starting point, then write down the first ten two-digit numbers in the order they appear.
+- **Selecting random numbers within a specific range** (e.g., 35 to 73): Write down numbers within the range and discard any outside it.
+- **Selecting three-digit numbers**: Group the digits in sets of three, either by reading down columns or across rows. Larger numbers can be created similarly.
+
+3.2 Simple Random Samples
+-------------------------
+
+Most sampling is conducted using a simple random sample without replacement, which meets the following requirements:
+
+1. Each sample unit in the population has an equal chance of being chosen.
+2. All possible combinations of sample units of a given size are equally likely.
+3. A sample unit may only appear once in a sample.
+
+This type of sample is referred to as *equal probability sampling without replacement*. It is performed by first numbering each sample unit, then using random numbers to select units. If a number repeats, it is simply discarded.
+
+3.3 Choosing Random Points along a Line
+---------------------------------------
+
+To locate points randomly along a line (e.g., a transect line of 6 km on a map), divide the line into units (e.g., 60 units of 100 meters each). Each unit is then assigned a number (00 to 60). Select random points along the line by choosing numbers in this range. If a number repeats or falls outside the range, discard it. Define one end of the line as point 00 and locate each point accordingly (e.g., number 13 represents a point 1300 meters from 00).
+
+3.4 Choosing Random Points in Space
+-----------------------------------
+
+To locate random points within an area, follow these steps:
+
+1. Set up x and y axes on the map covering the entire area.
+2. Divide each axis into convenient intervals (e.g., 100 meters).
+3. Use random number tables to select pairs of numbers where each pair represents a coordinate along the x and y axes.
+
+Points are plotted by locating them along the two axes. If a point falls outside the boundary of the area, discard it. Continue drawing pairs until the required number of points is located within the area.
+
+3.5 Maps
+--------
+
+Maps are essential for census work, and it’s important to understand map scales, particularly for locating sample units and measuring areas.
+
+**Understanding Map Scales**
+
+The scale of a map represents the relationship between a distance on the map and the corresponding distance on the ground. For example, a 1:250,000 scale means that one unit on the map represents 250,000 units on the ground. Misinterpreting a scale can lead to significant errors in sample estimates.
+
+**Measuring Area on Maps**
+
+To measure an area accurately:
+
+1. **Planimeter**: Use a planimeter, an instrument that measures area directly by tracing the outline of a region on the map. First, calibrate the planimeter by measuring a known area, then use this calibration for other measurements.
+
+2. **Alternative Methods**:
+   - **Cut-and-Weigh Method**: Trace the census zone onto paper along with a square of known area. Cut both out and weigh them. Use the ratio of weights to calculate the area.
+   - **Dot Grid Method**: Place a transparent grid with regularly spaced dots over the map. Count the dots within a known area, then count the dots within the census zone. Use the ratio to estimate the area.
+
+**Example of Planimeter Use**
+
+To calculate an area on a 1:250,000 map:
+
+- Draw a 2 cm square on the map representing 25 km².
+- Measure this square multiple times with the planimeter to get an average reading (A).
+- Measure the census zone similarly, obtaining an average reading (a').
+- Calculate the area using the formula:
+Area = (A / a') * known area in km²
+Repeat this process multiple times for accuracy, then average the results.

@@ -1,0 +1,173 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chapter 3: Random Numbers, Samples, and Maps &mdash; counting-animals-two  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            counting-animals-two
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../foreward.html">Foreword</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../chapter-1/index.html">Chapter 1: Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../chapter-2/index.html">Chapter 2: Necessary Mathematics and Statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../references.html">References</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">counting-animals-two</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Chapter 3: Random Numbers, Samples, and Maps</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/appendix/ca-1/ca-1-3.0.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="chapter-3-random-numbers-samples-and-maps">
+<h1>Chapter 3: Random Numbers, Samples, and Maps<a class="headerlink" href="#chapter-3-random-numbers-samples-and-maps" title="Link to this heading"></a></h1>
+<section id="random-number-tables">
+<h2>3.1 Random Number Tables<a class="headerlink" href="#random-number-tables" title="Link to this heading"></a></h2>
+<p>A random number table is a list of single digits (0-9) that occur in a totally uncoordinated and random order. These tables have two basic properties:</p>
+<ol class="arabic simple">
+<li><p>Each digit occurs with the same overall frequency.</p></li>
+<li><p>There is no correlation between the occurrence of one digit and its neighbors.</p></li>
+</ol>
+<p>From these properties, we can combine digits to form random numbers of any length or size.</p>
+<p><strong>Using Random Number Tables</strong></p>
+<p>To use random number tables, first select a starting point (e.g., page 3, row 4, column 2). Then decide if you will read numbers down a column or across a row. Write down the numbers as they appear, following these rules mechanically.</p>
+<p>Examples:</p>
+<ul class="simple">
+<li><p><strong>Selecting 10 random numbers between 00 and 99</strong>: Choose a starting point, then write down the first ten two-digit numbers in the order they appear.</p></li>
+<li><p><strong>Selecting random numbers within a specific range</strong> (e.g., 35 to 73): Write down numbers within the range and discard any outside it.</p></li>
+<li><p><strong>Selecting three-digit numbers</strong>: Group the digits in sets of three, either by reading down columns or across rows. Larger numbers can be created similarly.</p></li>
+</ul>
+</section>
+<section id="simple-random-samples">
+<h2>3.2 Simple Random Samples<a class="headerlink" href="#simple-random-samples" title="Link to this heading"></a></h2>
+<p>Most sampling is conducted using a simple random sample without replacement, which meets the following requirements:</p>
+<ol class="arabic simple">
+<li><p>Each sample unit in the population has an equal chance of being chosen.</p></li>
+<li><p>All possible combinations of sample units of a given size are equally likely.</p></li>
+<li><p>A sample unit may only appear once in a sample.</p></li>
+</ol>
+<p>This type of sample is referred to as <em>equal probability sampling without replacement</em>. It is performed by first numbering each sample unit, then using random numbers to select units. If a number repeats, it is simply discarded.</p>
+</section>
+<section id="choosing-random-points-along-a-line">
+<h2>3.3 Choosing Random Points along a Line<a class="headerlink" href="#choosing-random-points-along-a-line" title="Link to this heading"></a></h2>
+<p>To locate points randomly along a line (e.g., a transect line of 6 km on a map), divide the line into units (e.g., 60 units of 100 meters each). Each unit is then assigned a number (00 to 60). Select random points along the line by choosing numbers in this range. If a number repeats or falls outside the range, discard it. Define one end of the line as point 00 and locate each point accordingly (e.g., number 13 represents a point 1300 meters from 00).</p>
+</section>
+<section id="choosing-random-points-in-space">
+<h2>3.4 Choosing Random Points in Space<a class="headerlink" href="#choosing-random-points-in-space" title="Link to this heading"></a></h2>
+<p>To locate random points within an area, follow these steps:</p>
+<ol class="arabic simple">
+<li><p>Set up x and y axes on the map covering the entire area.</p></li>
+<li><p>Divide each axis into convenient intervals (e.g., 100 meters).</p></li>
+<li><p>Use random number tables to select pairs of numbers where each pair represents a coordinate along the x and y axes.</p></li>
+</ol>
+<p>Points are plotted by locating them along the two axes. If a point falls outside the boundary of the area, discard it. Continue drawing pairs until the required number of points is located within the area.</p>
+</section>
+<section id="maps">
+<h2>3.5 Maps<a class="headerlink" href="#maps" title="Link to this heading"></a></h2>
+<p>Maps are essential for census work, and it’s important to understand map scales, particularly for locating sample units and measuring areas.</p>
+<p><strong>Understanding Map Scales</strong></p>
+<p>The scale of a map represents the relationship between a distance on the map and the corresponding distance on the ground. For example, a 1:250,000 scale means that one unit on the map represents 250,000 units on the ground. Misinterpreting a scale can lead to significant errors in sample estimates.</p>
+<p><strong>Measuring Area on Maps</strong></p>
+<p>To measure an area accurately:</p>
+<ol class="arabic simple">
+<li><p><strong>Planimeter</strong>: Use a planimeter, an instrument that measures area directly by tracing the outline of a region on the map. First, calibrate the planimeter by measuring a known area, then use this calibration for other measurements.</p></li>
+<li><p><strong>Alternative Methods</strong>:
+- <strong>Cut-and-Weigh Method</strong>: Trace the census zone onto paper along with a square of known area. Cut both out and weigh them. Use the ratio of weights to calculate the area.
+- <strong>Dot Grid Method</strong>: Place a transparent grid with regularly spaced dots over the map. Count the dots within a known area, then count the dots within the census zone. Use the ratio to estimate the area.</p></li>
+</ol>
+<p><strong>Example of Planimeter Use</strong></p>
+<p>To calculate an area on a 1:250,000 map:</p>
+<ul class="simple">
+<li><p>Draw a 2 cm square on the map representing 25 km².</p></li>
+<li><p>Measure this square multiple times with the planimeter to get an average reading (A).</p></li>
+<li><p>Measure the census zone similarly, obtaining an average reading (a’).</p></li>
+<li><p>Calculate the area using the formula:</p></li>
+</ul>
+<p>Area = (A / a’) * known area in km²
+Repeat this process multiple times for accuracy, then average the results.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Wildlife Survey Tools Working Group.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
