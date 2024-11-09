@@ -1,0 +1,193 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bayesian Statistical Methods &mdash; counting-animals-two  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Glossary" href="../glossary.html" />
+    <link rel="prev" title="Fundamentals of Calculus" href="example-doc-1.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            counting-animals-two
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../foreward.html">Foreword</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../chapter-1/index.html">Chapter 1: Introduction</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Chapter 2: Necessary Mathematics and Statistics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="example-doc-1.html">Fundamentals of Calculus</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Bayesian Statistical Methods</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bayes-theorem">Bayes’ Theorem</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#prior-likelihood-and-posterior-distributions">Prior, Likelihood, and Posterior Distributions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#graphical-representation-of-bayesian-updating">Graphical Representation of Bayesian Updating</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#example-of-bayesian-inference-in-practice">Example of Bayesian Inference in Practice</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#summary-of-bayesian-inference-process">Summary of Bayesian Inference Process</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#conclusion">Conclusion</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../references.html">References</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">counting-animals-two</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Chapter 2: Necessary Mathematics and Statistics</a></li>
+      <li class="breadcrumb-item active">Bayesian Statistical Methods</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/chapter-2/example-doc-2.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="bayesian-statistical-methods">
+<h1>Bayesian Statistical Methods<a class="headerlink" href="#bayesian-statistical-methods" title="Link to this heading"></a></h1>
+<p>This section introduces basic Bayesian statistical methods, including concepts like Bayes’ theorem, prior distributions, likelihood, and posterior distributions.</p>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading"></a></h2>
+<p>Bayesian statistics is an approach to inference in which probabilities express a degree of belief in an event. It is based on Bayes’ theorem, which provides a way to update the probability of a hypothesis given new evidence.</p>
+</section>
+<section id="bayes-theorem">
+<h2>Bayes’ Theorem<a class="headerlink" href="#bayes-theorem" title="Link to this heading"></a></h2>
+<p>Bayes’ theorem is the foundation of Bayesian inference. It is expressed mathematically as:</p>
+<div class="math notranslate nohighlight">
+\[P(H | E) = \frac{P(E | H) \cdot P(H)}{P(E)}\]</div>
+<p>where:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(P(H | E)\)</span> is the posterior probability, or the probability of the hypothesis <span class="math notranslate nohighlight">\(H\)</span> given the evidence <span class="math notranslate nohighlight">\(E\)</span>.</p></li>
+<li><p><span class="math notranslate nohighlight">\(P(E | H)\)</span> is the likelihood, or the probability of observing <span class="math notranslate nohighlight">\(E\)</span> given that <span class="math notranslate nohighlight">\(H\)</span> is true.</p></li>
+<li><p><span class="math notranslate nohighlight">\(P(H)\)</span> is the prior probability of the hypothesis.</p></li>
+<li><p><span class="math notranslate nohighlight">\(P(E)\)</span> is the marginal likelihood, or the probability of observing the evidence.</p></li>
+</ul>
+<p>### Example Calculation</p>
+<p>Consider a scenario where we want to estimate the probability that a person has a particular disease (hypothesis <span class="math notranslate nohighlight">\(H\)</span>) given a positive test result (evidence <span class="math notranslate nohighlight">\(E\)</span>). The prior probability <span class="math notranslate nohighlight">\(P(H)\)</span> is the prevalence of the disease in the population. The likelihood <span class="math notranslate nohighlight">\(P(E | H)\)</span> is the probability of testing positive given that the person has the disease.</p>
+</section>
+<section id="prior-likelihood-and-posterior-distributions">
+<h2>Prior, Likelihood, and Posterior Distributions<a class="headerlink" href="#prior-likelihood-and-posterior-distributions" title="Link to this heading"></a></h2>
+<p>In Bayesian inference, we start with a <strong>prior distribution</strong> representing our initial beliefs about the parameters before observing any data. We then use the observed data to calculate the <strong>likelihood</strong>, and finally, combine the prior and the likelihood to obtain the <strong>posterior distribution</strong>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The posterior distribution represents the updated belief after considering the new data.</p>
+</div>
+</section>
+<section id="graphical-representation-of-bayesian-updating">
+<h2>Graphical Representation of Bayesian Updating<a class="headerlink" href="#graphical-representation-of-bayesian-updating" title="Link to this heading"></a></h2>
+<p>The following is a placeholder for a graph that illustrates the process of Bayesian updating, where the prior and likelihood combine to form the posterior distribution.</p>
+<figure class="align-center" id="id1">
+<img alt="Bayesian updating process" src="path/to/your/image.png" />
+<figcaption>
+<p><span class="caption-text">This graph illustrates how a prior distribution is updated to a posterior distribution after observing data.</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="example-of-bayesian-inference-in-practice">
+<h2>Example of Bayesian Inference in Practice<a class="headerlink" href="#example-of-bayesian-inference-in-practice" title="Link to this heading"></a></h2>
+<p>Consider a medical test with the following parameters:</p>
+<ul class="simple">
+<li><p><strong>Disease prevalence</strong> (prior): 1%</p></li>
+<li><p><strong>Sensitivity</strong> (true positive rate): 99%</p></li>
+<li><p><strong>Specificity</strong> (true negative rate): 95%</p></li>
+</ul>
+<p>Using Bayes’ theorem, we can calculate the probability that a person has the disease given a positive test result. Here’s how:</p>
+<div class="math notranslate nohighlight">
+\[P(\text{Disease | Positive}) = \frac{P(\text{Positive | Disease}) \cdot P(\text{Disease})}{P(\text{Positive})}\]</div>
+<p>where:</p>
+<div class="math notranslate nohighlight">
+\[P(\text{Positive}) = P(\text{Positive | Disease}) \cdot P(\text{Disease}) + P(\text{Positive | No Disease}) \cdot P(\text{No Disease})\]</div>
+</section>
+<section id="summary-of-bayesian-inference-process">
+<h2>Summary of Bayesian Inference Process<a class="headerlink" href="#summary-of-bayesian-inference-process" title="Link to this heading"></a></h2>
+</section>
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading"></a></h2>
+<p>Bayesian methods provide a powerful framework for updating beliefs in light of new evidence. This approach is widely used in fields such as medicine, finance, and machine learning, where probabilistic reasoning and continuous learning from data are essential.</p>
+<p>Further Reading:</p>
+<ul class="simple">
+<li><p>“Bayesian Data Analysis” by Andrew Gelman, John B. Carlin, et al.</p></li>
+<li><p>“Doing Bayesian Data Analysis” by John K. Kruschke</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="example-doc-1.html" class="btn btn-neutral float-left" title="Fundamentals of Calculus" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../glossary.html" class="btn btn-neutral float-right" title="Glossary" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Wildlife Survey Tools Working Group.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
