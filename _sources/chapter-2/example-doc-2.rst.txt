@@ -52,7 +52,7 @@ Graphical Representation of Bayesian Updating
 
 The following is a placeholder for a graph that illustrates the process of Bayesian updating, where the prior and likelihood combine to form the posterior distribution.
 
-.. figure:: /path/to/your/image.png
+.. figure:: ./img/bayes-example.png
    :align: center
    :alt: Bayesian updating process
 
