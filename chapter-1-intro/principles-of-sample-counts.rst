@@ -1,6 +1,6 @@
-.. _principals:
+.. _principles:
 
-The principals of sample counts
+The principles of sample counts
 ------
 
 Blah, blah, blah
