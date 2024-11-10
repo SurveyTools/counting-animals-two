@@ -11,8 +11,15 @@ Counting Animals 2.0
    :caption: Contents
 
    foreward
-   chapter-1/index
-   chapter-2/index
+   chapter-1-intro/index
+   chapter-2-foundations/index
+   chapter-3-methods/index
+   chapter-4-design/index
+   chapter-5-execution/index
+   chapter-6-analysis/index
+   chapter-7-results/index
+   chapter-8-problems/index
+   chapter-9-other-approaches/index
    glossary
    references
 

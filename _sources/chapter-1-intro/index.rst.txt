@@ -1,5 +1,5 @@
 Chapter 1: Introduction
-===============================
+=======================
 
 Welcome to Counting Animals 2.0
 
